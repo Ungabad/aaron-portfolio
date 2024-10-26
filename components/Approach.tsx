@@ -118,7 +118,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon = ({ className, ...rest }: IconProps) => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
@@ -132,6 +132,10 @@ export const Icon = ({ className, ...rest }: any) => {
       <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v12m6-6H6' />
     </svg>
   );
+};
+type IconProps = {
+  className?: string;
+  // Add other props types here
 };
 
 export default Approach;

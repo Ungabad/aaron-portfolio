@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "rules": {
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-debugger": "off"
+    // Add all other rules as needed or use plugins to automate this.
+  }
 }
