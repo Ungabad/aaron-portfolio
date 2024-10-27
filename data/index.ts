@@ -72,63 +72,56 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Basic Weather Application",
+    des: "Find out the weather forecast for a specified location",
+    img: "4-weathers.jpg",
+    iconLists: [
+      "next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "vercel.png",
+      "MongoDB.png",
+    ],
+    link: "https://github.com/Ungabad/aaron-weather-app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Pupster App",
+    des: "A cute little app that allows you to like a dogs picture",
+    img: "dogs.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "vercel.png"],
+    link: "https://github.com/Ungabad/aaron-pupster-app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "ToDo App",
+    des: "An app that allows you to input new todo projects, give them a checkmark when completed and delete them.",
+    img: "https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "Netlify.png",
+      "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+    ],
+    link: "https://github.com/Ungabad/aaron_todo_app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Express Book App",
+    des: "A simple book database application with the ability to add, edit and delete various data about books.",
+    img: "https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&w=600",
+    iconLists: [
+      "/re.svg",
+      "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+      "/Netlify.png",
+      "/MongoDB.png",
+      "https://ungabad.github.io/images/express.png",
+    ],
     link: "https://github.com/adrianhajdin/iphone",
   },
 ];
 
 export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -173,15 +166,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Engineer Student",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web App Dev Student",
+    desc: "Designed and developed Web applications using React, Express, and Next under the guidance of experienced professionals.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -205,13 +198,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Ungabad",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/instagram.jpg",
+    link: "https://www.instagram.com/ungabad/",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/aaron-dalager-71933a24b/",
   },
 ];
