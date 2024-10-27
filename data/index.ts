@@ -88,7 +88,7 @@ export const projects = [
     id: 2,
     title: "Pupster App",
     des: "A cute little app that allows you to like a dogs picture",
-    img: "dogs.jpg",
+    img: "https://media.istockphoto.com/id/483449001/photo/group-of-dogs.jpg?b=1&s=612x612&w=0&k=20&c=XUgcSmcO1JqcynaIm6aiUo0qvnw94Hvaia5x5v8n238=",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "vercel.png"],
     link: "https://github.com/Ungabad/aaron-pupster-app",
   },
