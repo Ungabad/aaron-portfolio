@@ -117,7 +117,7 @@ export const projects = [
       "/MongoDB.png",
       "https://ungabad.github.io/images/express.png",
     ],
-    link: "https://github.com/Ungabad/express-book-app",
+    link: "https://express-book-app.onrender.com",
   },
 ];
 
